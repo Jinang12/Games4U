@@ -1,0 +1,14 @@
+body{
+    background-color: white;
+}
+#one,#two,#three{
+    max-height: 100vh;
+}
+#rpsbutton{
+    background: linear-gradient(45deg, #0066ff, #39ff14);
+    border-radius: 0px;
+    border: 0px;
+}
+#rpsbutton:hover{
+    opacity: 0.9;
+}
