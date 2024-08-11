@@ -2,6 +2,7 @@
 ## Overview
 
 This project is a simple web application featuring a carousel with three slides, each representing a different game (Rock, Paper, Scissors). The application includes a button that changes its background color based on the active slide in the carousel. Clicking the button redirects users to different game pages based on the current slide.
+https://jinang12.github.io/Games4U/
 
 ## Features
 
