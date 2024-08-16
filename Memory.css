@@ -1,0 +1,98 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/016/124/733/original/poker-and-casino-playing-card-black-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: 0px;
+    width: 97vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.cards button{
+    width: 130px;
+    height: 230px;
+    background-image: url(https://preview.redd.it/how-do-you-guys-like-the-card-back-design-v0-duk1yoprvj0b1.jpg?width=640&crop=smart&auto=webp&s=85fa10d4706f8736d146ea35c2d7c83a959f673d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+button:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+.reset button{
+    padding: 10px;
+    width: 100px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    border: 0px;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, rgb(20, 20, 20), rgb(80, 80, 80));
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.25),
+            0 -4px 4px -4px rgba(0, 0, 0, 0.25), 
+            4px 0 4px -4px rgba(0, 0, 0, 0.25), 
+            -4px 0 4px -4px rgba(0, 0, 0, 0.25); 
+
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.cards h1{
+    color: silver;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    word-wrap: normal;
+}
+@media only screen and (max-width:700px){
+    .cards h1{
+        top: 300px;
+        right: 100px;
+        left: 70px;
+        font-size: 1.8rem;
+    }
+    .reset button{
+        top: 45px;
+        right: 30px;
+    }
+    .cards{
+        width: 350px;
+        height: 250px;
+    }
+    .cards button{
+        width: 80px;
+        height: 140px;
+    }
+}
+@media only screen and (max-width:360px) {
+    .cards h1{
+        top: 300px;
+        right: 100px;
+        left: 85px;
+        font-size: 1.5rem;
+    }
+    .cards{
+        width: 300px;
+        height: 200px;
+        gap: 5px;
+    }
+    .cards button{
+        width: 70px;
+        height: 120px;
+    }
+}

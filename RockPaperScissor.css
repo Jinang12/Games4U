@@ -1,0 +1,40 @@
+body{
+    background-image: url('https://garden.spoonflower.com/c/12445951/p/f/m/zb8NNYiMYvZXBYrhNhn8v5fCVtVC3shnprdoFv5mTrN5IXASLmYY54Zo8A/Rock%20Paper%20Scissors%20-%20green%20-%20fun%20games%20-%20LAD21.jpg');
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+button{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    margin-bottom: 10px;
+    background: orange;
+    padding: 10px;
+    border-radius: 10px;
+}
+#resetButton {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 10px;
+    position: fixed ;
+    right: 0;
+    bottom:0px;
+    margin: 10px;
+    margin-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+#resetButton:hover{
+    cursor: pointer;
+    opacity: 0.95;
+}

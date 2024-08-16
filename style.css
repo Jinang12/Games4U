@@ -1,0 +1,25 @@
+body,html{
+    background-color: white;
+    height: 100%;
+}
+#one,#two,#three,#four{
+    height: 100%;
+}
+#rpsbutton{
+    background: linear-gradient(45deg, #0066ff, #39ff14);
+    border-radius: 0px;
+    border: 0px;
+    font-weight: 600;
+    color: black;
+}
+#rpsbutton:hover{
+    opacity: 0.9;
+}
+.container-fluid img{
+    width: 50px;
+    height: 100%;
+}
+.container-fluid{
+    display: flex;
+    justify-content: flex-start;
+}

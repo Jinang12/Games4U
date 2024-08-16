@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="RockPaperScissor.css">
+</head>
+<body style="background-color: #add8e6; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+    <div class="reset">
+        <input onclick="Reset()" id="resetButton" type="reset" value="Reset" style="width: 100px;">
+    </div>    
+    <div style="width: 100%; text-align: center; margin-bottom: 20px;">
+        <h1 id="score" style="font-size: 40px; margin: 0; background: orange;">0 - 0</h1>
+    </div>
+    <div style="width: 80%; display: flex; justify-content: space-around; align-items: stretch;">
+        <div style="width: 45%; text-align: center;">
+            <h1>You</h1>
+            <div style="border-radius: 5px; padding: 20px; background-color: white; display: flex; flex-direction: column; justify-content: center; height: 400px;">
+                <div>
+                    <img src="https://t3.ftcdn.net/jpg/00/55/21/18/360_F_55211893_pMzGwbg4p7yElUGfc868m9dUXaknoWkU.jpg" alt="Rock" style="width: 50px; height: 50px;">
+                    <br>
+                    <button style="border-radius: 10px; border: 0px; margin-top: 10px; width: 100%; height: 50px; background-color: lightgreen;">Rock</button>
+                </div>
+                <div>
+                    <img src="https://t4.ftcdn.net/jpg/03/03/60/99/360_F_303609961_q026RoeUYia0Ufp6nrKjrqdGcgRyjaxQ.jpg" alt="Paper" style="width: 50px; height: 50px; margin-top: 20px;">
+                    <br>
+                    <button style="border-radius: 10px; border: 0px; margin-top: 10px; width: 100%; height: 50px; background-color: lightgreen;">Paper</button>
+                </div>
+                <div>
+                    <img src="https://media.istockphoto.com/id/1043551106/vector/scissors-vector-cartoon.jpg?s=612x612&w=0&k=20&c=iu7Ca7ucLnq0HyalszRYYjO29XFnbWlnP2MpoMop0iU=" alt="Scissors" style="width: 50px; height: 50px; margin-top: 20px;">
+                    <br>
+                    <button style="border-radius: 10px; border: 0px; margin-top: 10px; width: 100%; height: 50px; background-color: lightgreen;">Scissors</button>
+                </div>
+            </div>
+        </div>
+        <div style="width: 45%; text-align: center;">
+            <h1>Bot</h1>
+            <div id="second" style="border-radius: 5px; padding: 20px; background-color: white; display: flex; justify-content: center; align-items: center; height: 400px;">
+                <img src="" alt=" " id="img" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+            </div>
+        </div>
+    </div>
+    <script src="RockPaperScissor.js"></script>
+</body>
+</html>
